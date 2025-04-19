@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three.js Jump Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 style="position: absolute; top: 10px; left: 10px; margin: 0; color: #fcba03; font-size: 1.25rem; text-shadow: 2px 2px rgba(0,0,0,.5); font-family: Arial;">Press the up arrow to jump</h1>
+    <h1 class='score' style="position: absolute; top: 40px; left: 10px; margin: 0; color: #fcba03; font-size: 1.25rem; text-shadow: 2px 2px rgba(0,0,0,.5); font-family: Arial;">score: 0</h1>
+    <h1 class='lastScore' style="position: absolute; top: 70px; left: 10px; margin: 0; color: #fcba03; font-size: 1.25rem; text-shadow: 2px 2px rgba(0,0,0,.5); font-family: Arial;">Last score: 0</h1>
+    <h1 class='lose' style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -100%); width: 100vw !important; max-width: 100vw; font-size: 5rem; text-align: center; opacity: 0; transition: opacity 0.2s ease-out; color: #fcba03; text-shadow: 2px 2px rgba(0,0,0,.5); font-family: Arial;">You lose!</h1>
+
+    <!-- 添加第三方库 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/110/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js"></script>
+    <script src="https://klevron.github.io/codepen/three.js/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/simplex-noise/2.4.0/simplex-noise.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <!-- 主游戏脚本 -->
+    <script src="js/game.js"></script>
+</body>
+</html>
