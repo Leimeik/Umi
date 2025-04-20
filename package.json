@@ -1,0 +1,12 @@
+{
+  "name": "p220813017-web-version",
+  "version": "1.0.0",
+  "description": "这是一个使用Three.js构建的3D障碍躲避游戏。玩家需要控制角色左右移动和跳跃，避开场景中的障碍物来获得高分。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
