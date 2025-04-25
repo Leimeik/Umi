@@ -1,7 +1,0 @@
-{
-    "name": "umi",  // 小写字母、数字、连字符
-    "compatibility_date": "2025-04-20",
-    "assets": {
-      "directory": "./dist"     // 指向构建后的静态资源目录
-    }
-  }
